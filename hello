@@ -5,3 +5,4 @@ printf hell
 printf "ok\n"
 echo  "hello"
 echo  imfine
+echo "fin"
