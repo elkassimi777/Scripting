@@ -2,6 +2,6 @@
 
 printf hell
 
-printf "ok\r"
+printf "ok\n"
 echo  "hello"
-echo hello
+echo  imfine
