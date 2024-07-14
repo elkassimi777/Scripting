@@ -6,7 +6,7 @@
 		
 	   steps{
 		echo 'building the application'
-		echo 'it works'
+		echo 'it works like i want'
 	    }
 	}
 	
