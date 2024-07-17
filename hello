@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 printf hell
 
 printf "ok\n"
@@ -9,3 +10,7 @@ echo "fin"
 hello
 fine
 good
+=======
+echo "Hello $USER"
+printf 'hello  %s\n' "$@"
+>>>>>>> 9d07dbe (debuging)
