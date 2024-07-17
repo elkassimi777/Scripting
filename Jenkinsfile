@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-pipeline{
-
-  agent any
-  stages {
-      stage ("build"){
-		
-	   steps{
-		echo 'building the application'
-	    }
-	}
-	
-	stage ("test") {
-		
-	     steps {
-		echo 'testing the app'
-		}
-	}
-	
-	stage ("deploy"){
-		
-	      steps {
-		echo 'testing the app'
-		}
-	}
-
-  }
-=======
 // Uses Declarative syntax to run commands inside a container.
 @Library('main-library@sl-refactoring-v2') _
 
@@ -257,5 +229,4 @@ pipeline {
             teamsNotify('app-sigman', env.ENV, currentBuild.currentResult, 'app-sigman', 'https://github.com/peopulse/app-sigman')
         }
     }
->>>>>>> 339a03e (Addning Jenkins File)
 }
